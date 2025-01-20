@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+}
+
+.back{
+    position: relative;
+    padding: -1%;
+    margin: -1%;
+    width: 102%;
+    height: auto;
+}
+
+.menu{
+    position: relative;
+    background-color: rgb(76, 76, 76);
+    margin-top: 0.5%;
+    margin-left: -0.67%;
+    padding: -1%; 
+    width: 102%;
+}
+
+#itens{
+    display: flex;
+    flex-direction: row;
+    gap:20%;
+    align-self: center;
+    margin-left: 18%;
+    align-items: center;
+    justify-items: center;
+}
+
+a{
+    text-decoration: none;
+    font-size: x-large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+a:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.Texto{
+    width: 90%;
+    margin-left: 5%;
+    font-size: large;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: rgb(217, 116, 1);
+}
+
+#icon{
+    position: relative;
+    height: 6vh;
+    width: auto;
+}
+
+#contato{
+    position: absolute;
+    margin-left: 10vh;
+    margin-top: -6vh;
+}
+#email{
+    text-decoration: none;
+    color:  rgb(217, 116, 1);
+}
+
+#gif_fofo{
+    display: flex;
+    justify-self: center;
+}

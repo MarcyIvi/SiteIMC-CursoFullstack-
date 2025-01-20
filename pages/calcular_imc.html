@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/imc.css">
+    <script src="../js/script.js"></script>
+    <link rel="icon" href="../img/icon_saude.ico" type="image/x-icon">
+    <title>Trabalho Full Stack</title>
+</head>
+<body>
+    <script></script>
+    <main>
+        <img class="back" src="../img/IMC.png">
+        <div class="menu">
+            <nav id="itens">
+                <a href="../index.html"><b>+SAÚDE</b></a>
+                <a href="receitas.html"><b>RECEITAS</b></a>
+                <a href="maisSobre.html"><b>SOBRE NÓS</b></a>
+            </nav>
+        </div>
+        <div class="Texto">
+            <p>
+                <h1>IMC o que é ? E como descobrir o seu ?</h1>
+                <h2>O que é IMC ?</h2>
+                O Índice de Massa Corporal (IMC) é uma ferramenta utilizada para avaliar se uma pessoa está dentro de um peso saudável em relação à sua altura. Ele é amplamente utilizado por profissionais de saúde como uma maneira simples e eficaz de monitorar o risco de doenças relacionadas ao peso, como doenças cardíacas, diabetes tipo 2 e hipertensão. Embora o IMC não seja um diagnóstico definitivo, ele pode ajudar a identificar possíveis problemas de saúde relacionados ao peso corporal.
+           
+                <h2>Como o IMC é calculado?</h2>
+                O cálculo do IMC é simples e envolve uma fórmula matemática que divide o peso da pessoa (em quilogramas) pela altura (em metros) ao quadrado. A fórmula é a seguinte:
+            </p>
+            <img id="calculo" src="../img/calculadora.webp">
+
+            <p>
+                <h2>Tal calcular seu IMC?</h2>
+            </p>
+            <div id="CAIXA">
+                <form class="IMC">
+                    <h2 id="tf">CALCULE SEU IMC</h2>
+                    <label for="altura">Digite sua altura (m):</label>
+                    <input type="number" id="altura">
+                    <br>
+                    <label for="peso">Digite seu peso (kg): </label>
+                    <input type="number" id="peso">
+                    <br>
+                    <button type="button" onclick= "realizarIMC()">CALCULAR IMC</button>
+                    <br><br>
+                    <span id="resultado"></span>
+                </form> 
+            </div>
+            <p>
+                <h2>Interpretação do IMC</h2>
+                Com base no valor do IMC, é possível classificar o peso em diferentes categorias. A tabela abaixo apresenta as faixas de IMC e suas respectivas classificações:
+                
+                <ul>
+                    <li>
+                        <b>Abaixo do peso:</b> IMC abaixo de 18,5.
+                    </li>
+                    <br>
+                    <li> 
+                        <b>Peso normal:</b> IMC entre 18,5 e 24,9.
+                     </li> 
+                    <br>
+                    <li>
+                        <b>Sobrepeso:</b> IMC entre 25 e 29,9.
+                    </li>
+                    <br>
+                    <li>
+                        <b>Obesidade:</b> IMC acima de 30.
+                    </li>
+                </ul>
+
+                Essas faixas são apenas diretrizes gerais. Para uma avaliação mais detalhada e personalizada da saúde, é importante consultar um médico ou nutricionista.
+            </p>
+
+            <p>
+                <h2>Limitações do IMC</h2>
+                Embora o IMC seja uma ferramenta útil para avaliar a saúde geral, ele possui algumas limitações. O IMC não leva em consideração fatores como a composição corporal (proporção de músculos e gordura), o que significa que pessoas com alta massa muscular, como atletas, podem ter um IMC mais elevado sem estarem necessariamente acima do peso. Além disso, ele não distingue a distribuição da gordura corporal, o que pode ser relevante para identificar riscos à saúde.
+            </p>
+
+            <p>
+                <h2>Conclusão</h2>
+                O IMC é uma maneira prática e amplamente utilizada para monitorar o peso corporal e estimar o risco de doenças associadas ao excesso ou à falta de peso. No entanto, para um diagnóstico preciso e orientações personalizadas, é fundamental buscar o acompanhamento de profissionais de saúde.
+            </p>
+
+        </div>
+
+    </main>
+</body>
+</html>
